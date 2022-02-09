@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Document Object Model (DOM)</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    </head>
+
+    <body>
+        <div class="MainDiv" id="MainDiv">
+            <h2>temp Converter</h2>
+            <div id="converter">
+
+                <form id="form1">
+                    <input id="numb" type="number"><br>
+                    <input id="clickedFahrenheit" type="radio" name="F°">
+                    <input id="clickedCelsius" type="radio" name="C°"><br>
+                    <input type="submit" id="submit" onclick="clickedSubmit()">
+                    <button type="button" onclick="clear">Clear</button>
+                    <p id="displayNum" class="DisplayH3"></p>
+                </form> 
+            </div>
+        </div>
+    </body>
+</html>

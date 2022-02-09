@@ -1,0 +1,15 @@
+.MainDiv {
+     background-color:darkgray;
+     text-align: center;
+     padding-right: 20%;
+     padding-bottom: 50px;
+     padding-left: 20%;
+}
+
+
+
+.DisplayH3 {
+     background-color: red;
+     padding-bottom: 40px;
+     padding-top: 40px;
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+        <script type="text/javascript">
+            //Using the form below, implement the following:
+            //1. Createe a Javascript function named processForm
+            //2. Implement an onclick function such that when onclick is called
+            //   in the html, it calls a Javascript function processForm
+            //3. In side the processForm function, retrieve the login and password
+            //   information from the login and password inputs
+            //4. Output the collected login and password inputs to the corresponding
+            //   login_output and password_output
+            //BONUS
+            //Implement a clear function that when the clear button is clicked, it
+            //will remove the data inputted in the login and password input. Bonus points
+            //if you can get all the inputs at once and clear them in a loop.
+    
+    
+        </script>
+    </head>
+
+    <body>
+        <div class="container">
+            <h1 >Form Items</h1>
+
+            <form>
+                <div class="form-group">
+                    <label>Login</label>
+                    <input type="text" name="username" id="username" class="form-control input-element" />
+                </div>
+
+                <div class="form-group">
+                    <label>Password</label>
+                    <input type="password" name="password" id="password" class="form-control input-element" />
+                </div>
+
+                <div class="form-check" >
+                    <label>Stay Logged In</label>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="stayLoggedIn" id="stayLoggedIn1" value="Yes" checked>
+                        <label class="form-check-label" for="stayLoggedIn">
+                        Yes Stay Logged In
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="stayLoggedIn" id="stayLoggedIn2" value="No">
+                        <label class="form-check-label" for="stayLoggedIn">
+                        No - Temp Login Only
+                        </label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <button type="button" class="btn btn-success" onclick="">
+                        Submit
+                    </button>
+                    <button type="button" class="btn btn-default" onclick="">
+                        Clear
+                    </button>
+                </div>
+            </form>
+
+            <h2>Output</h2>
+            <p><strong>Login:</strong> <span id="login_output"></span></p>
+            <p><strong>Password:</strong> <span id="password_output"></span></p>
+        </div>
+    </body>
+
+</html>

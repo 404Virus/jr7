@@ -1,0 +1,6 @@
+.MainBackground{
+    background-image: url(background.gif);
+    color: lime;
+    background-size: cover;
+    flex: auto;
+}

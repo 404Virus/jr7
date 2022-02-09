@@ -1,0 +1,29 @@
+.nav-bar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(238, 0, 0);
+    box-shadow: 0 8px 16px 0 hsla(0, 0%, 0%, 0.411), 0 6px 20px 0 rgb(250, 4, 4);
+    
+    
+    
+  }
+  
+ .liv {
+    float: left;
+    
+  }
+  
+  .liv {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  
+  .liv {
+    background-color: rgb(238, 0, 0);
+  }
