@@ -1,3 +1,10 @@
+/* add this html to size it */
+.html {
+    width: 500px;
+    height: 500px;
+    padding-left: 450px;
+    padding-right: 500px;
+}
 .MainDiv {
      background-color:darkgray;
      text-align: center;
