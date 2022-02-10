@@ -3,7 +3,7 @@
     <head>
     <title>Document Object Model (DOM)</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
     </head>
 
     <body id="">
@@ -15,10 +15,10 @@
                     <input id="numb" type="number"><br>
                     <input id="clickedFahrenheit" type="radio" name="F°">F°
                     <input id="clickedCelsius" type="radio" name="C°">C°<br>
-                    <input type="submit" id="submit" onclick="clickedSubmit()">
-                    <input type="button" >Clear</input>
-                    <p id="displayNum" class="DisplayH3">0</p>
+                    <button type="submit" id="submit">Submit</button>
+                    <button type="button" id="clear">Clear</button>
                 </form> 
+                <p id="displayNum" class="DisplayH3">0</p>
             </div>
         </div>
     </body>

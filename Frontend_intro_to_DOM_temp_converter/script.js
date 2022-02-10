@@ -1,19 +1,25 @@
+var submitBtn = document.getElementById("submit");
+submitBtn.addEventListener('click', converter);
+function converter(event) {
+        console.log(event);
+        console.log("hit");
+        event.preventDefault();
+        var result;
 
-function converter() {
-    var result;
-
-       var convert = document.getElementById("numb");
+       var convert = document.getElementById("numb").value;
 
        var fahrenheit = document.getElementById("clickedFahrenheit")
-       var celsius = document.getElementById("clickedCelsius")
+
          if(fahrenheit.checked == true){
-            result = (convert * 9/5 ) + 32;
+            result = (convert * 9/5 ) + 32
+            console.log(result)
          } else {
              result = ( convert - 32) * 5/9;
          }
 
-         var display = document.getElementById("displayNum")
+         var display = document.getElementById("displayNum");
          
+         display.innerHTML = result;
 
     }
 
@@ -21,8 +27,7 @@ function converter() {
 
 
 
-
-
+// /*? this is the old code before class on 2/9/2022
 // function clickedFahrenheit() {
 //     var input1 = document.getElementById("clickedFahrenheit")
 // }
@@ -43,4 +48,3 @@ function converter() {
 //     var display = document.write("number");
 //     var display2  = document.getElementById("displayNum");
 // }
-
